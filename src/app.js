@@ -83,6 +83,8 @@ app.get('*', (req, res) => {
 //     })
 // })
 
-app.listen(3000, () => {
-    console.log('Server will run in 3000 port')
+const port = process.env.PORT || 2000
+
+app.listen(port, () => {
+    console.log('Server will run in 2000 port')
 })
