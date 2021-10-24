@@ -16,7 +16,7 @@ weatherform.addEventListener('submit', (e) => {
             if(data.error) {
                 console.log(data.error)
             } else {
-                add.textContent = 'Location : ' + data.Forecast.location
+                add.textContent = 'Location/Place : ' + data.Forecast.location
                 temp.textContent = 'Temperature : ' + data.Forecast.temperature + '  degree celcius'
             }
         })
