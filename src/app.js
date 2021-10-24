@@ -23,7 +23,7 @@ app.use(express.static(publicdir))
 app.get('', (req, res) => {
     res.render('index', {
         title: 'Home',
-        name: 'Ashraful'
+        name: 'Ashraful Islam'
     })
 })
 
